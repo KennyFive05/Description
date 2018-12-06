@@ -89,7 +89,7 @@ GridLayout就像是一個表格，必需在一開始就指定表格要有幾欄�
 * weightx - 視窗變大時，元件跟著橫向變大的比例
 * weighty - 視窗變大時，元件跟著縱向變大的比例
 * fill - 元件填滿的程度，有下列幾種值
-<table border="1">
+<table>
 <tr><td>GridBagConstraints.NONE</td><td>不填滿</td></tr>
 <tr><td>GridBagConstraints.HORIZONTAL</td><td>水平方向填滿</td></tr>
 <tr><td>GridBagConstraints.VERTICAL</td><td>垂直方向填滿</td></tr>
