@@ -97,7 +97,7 @@ GridLayout就像是一個表格，必需在一開始就指定表格要有幾欄�
 </table>
 
 * anchor - 對齊的方式，有下列幾種值
-<table border="1">
+<table>
 <tr><td>GridBagConstraints.CENTER</td><td>中央對齊</td></tr>
 <tr><td>GridBagConstraints.EAST</td><td>向右對齊</td></tr>
 <tr><td>GridBagConstraints.SOUTHEAST</td><td>右下對齊</td></tr>
