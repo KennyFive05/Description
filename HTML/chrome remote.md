@@ -14,8 +14,8 @@ chrome 怎麼安裝就不用說了，比較麻煩的就是要當找不到 Androi
 ## 第一步：準備連接 Android 設備
 1. Android 開啟**開發人員選項**
    * 打開 設定 > 關於手機 > 軟體資訊
-   * 點擊七次*版本號碼*開啟**開發人員選項**
-   * 回到設定最下面就會出現**開發人員選項**
+   * 點擊七次「版本號碼」開啟**開發人員選項**
+   * 回到「設定」最下面就會出現**開發人員選項**
 
 2. Android 開啟**USB 偵錯**
    * 設定 > 開發人員選項 > USB 偵錯
@@ -23,7 +23,7 @@ chrome 怎麼安裝就不用說了，比較麻煩的就是要當找不到 Androi
 3. 使用 USB 線連接電腦
 
 ## 第二步：找到你的 Android 設備
-開啟 chrome 打開**開發人員工具**(F12 or Ctrl+Shift+I)
+打開 chrome **開發人員工具**(F12 or Ctrl+Shift+I)
 
 點擊 Main Menu 主菜單 ⋮ ，然後選擇 More tools > Remote devices
 
@@ -43,7 +43,7 @@ chrome 怎麼安裝就不用說了，比較麻煩的就是要當找不到 Androi
 
 ![Alt text](img/chrome-remote-3.jpg)
 
-網路上一堆說到官網下載 adb.exe 執行就可以，結果都沒說在哪...我載了一堆都不是，所以才有了這篇
+網路上一堆說到官網下載 adb.exe 執行就可以，結果都沒說在哪...我載了一堆都找不到，所以才有了這篇
 
 官網 https://developer.android.com/studio/
 
@@ -85,7 +85,7 @@ chrome 怎麼安裝就不用說了，比較麻煩的就是要當找不到 Androi
 
 再次打開 Main Menu 主菜單 ⋮ > More tools > Remote devices
 
-左邊 Devices 應該就會出現 Connected 的裝置
+左邊 Devices 就會出現 Connected 的裝置
 
 ![Alt text](img/chrome-remote-2.jpg)
 
@@ -93,6 +93,10 @@ chrome 怎麼安裝就不用說了，比較麻煩的就是要當找不到 Androi
 
 點選左邊的 Android 裝置
 
-這邊會顯示 Android 裝置所有的分頁(無論你的 Android 是否顯示 Chrome 畫面，只要背景有在運行即可)
+這邊會列出 Android 裝置所有的分頁(無論你的 Android 是否顯示 Chrome 畫面，只要背景有在運行即可)
 
-![Alt text](img/chrome-remote-11.jpg)
+![Alt text](img/chrome-remote-11.png)
+
+對要 debugging 的網頁點選 Inspect 就可以開始 debugging 了哦！
+
+![Alt text](img/chrome-remote-12.png)
